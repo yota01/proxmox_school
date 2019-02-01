@@ -4,6 +4,8 @@ adminitescia:
     - home: /home/admin
 htop: 
   pkg.installed
+
+# clés public SSH
 sshkeys:
   ssh_auth.present:
     - user: adminitescia
